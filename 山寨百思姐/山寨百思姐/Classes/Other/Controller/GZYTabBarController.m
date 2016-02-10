@@ -12,6 +12,7 @@
 #import "GZYFriendTrendsViewController.h"
 #import "GZYMeViewController.h"
 #import "GZYTabBar.h"
+#import "GZYNavigationController.h"
 
 @interface GZYTabBarController ()
 
@@ -19,9 +20,8 @@
 
 @implementation GZYTabBarController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
+
++(void)initialize{
     
     //统一设置字体属性
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
@@ -32,10 +32,15 @@
     selectedAttrs[NSFontAttributeName] = attrs[NSFontAttributeName];
     selectedAttrs[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
     
-    UITabBarItem *item = [UITabBarItem appearance];
+    UITabBarItem *item = [UITabBarItem appearanceWhenContainedInInstancesOfClasses:@[[self class]]];
     [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
     [item setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
     
+}
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
     
     //添加子控制器
     [self setupVc:[[GZYEssenceViewController alloc] init] tittle:@"精华" imageName:@"tabBar_essence_icon" selectedImageName:@"tabBar_essence_click_icon"];
@@ -57,9 +62,10 @@
     vc.tabBarItem.title = tittle;
     vc.tabBarItem.image = [UIImage imageNamed:imageName];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:seletedImageName];
-    vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1.0];
     
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    GZYNavigationController *nav = [[GZYNavigationController alloc] initWithRootViewController:vc];
+    
     [self addChildViewController:nav];
 
     

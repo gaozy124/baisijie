@@ -18,10 +18,16 @@
 
 @implementation GZYTabBar
 
-//加入中心按钮
+
 -(instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         
+        //设置背景图片
+        [self setBackgroundImage:[UIImage imageNamed:@"tabbar-light"]];
+        
+        
+        
+        //创建中心按钮
         UIButton *publishButton = [UIButton buttonWithType:UIButtonTypeCustom];
         
         [publishButton setImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];

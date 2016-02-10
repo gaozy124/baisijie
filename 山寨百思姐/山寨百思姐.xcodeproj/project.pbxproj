@@ -20,6 +20,7 @@
 		3C6AD50F1C6B04E900E56697 /* GZYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD5021C6B04E900E56697 /* GZYTabBarController.m */; };
 		3C6AD5101C6B04E900E56697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD5031C6B04E900E56697 /* main.m */; };
 		3C6AD5111C6B04E900E56697 /* GZYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD5071C6B04E900E56697 /* GZYTabBar.m */; };
+		3C6AD5141C6B187700E56697 /* GZYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD5131C6B187700E56697 /* GZYNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		3C6AD5041C6B04E900E56697 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3C6AD5061C6B04E900E56697 /* GZYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYTabBar.h; sourceTree = "<group>"; };
 		3C6AD5071C6B04E900E56697 /* GZYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYTabBar.m; sourceTree = "<group>"; };
+		3C6AD5121C6B187700E56697 /* GZYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYNavigationController.h; sourceTree = "<group>"; };
+		3C6AD5131C6B187700E56697 /* GZYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +329,8 @@
 			children = (
 				3C6AD5011C6B04E900E56697 /* GZYTabBarController.h */,
 				3C6AD5021C6B04E900E56697 /* GZYTabBarController.m */,
+				3C6AD5121C6B187700E56697 /* GZYNavigationController.h */,
+				3C6AD5131C6B187700E56697 /* GZYNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -475,6 +480,7 @@
 				3C6AD5081C6B04E900E56697 /* GZYEssenceViewController.m in Sources */,
 				3C6AD50D1C6B04E900E56697 /* UIBarButtonItem+GZYExtension.m in Sources */,
 				3C6AD5111C6B04E900E56697 /* GZYTabBar.m in Sources */,
+				3C6AD5141C6B187700E56697 /* GZYNavigationController.m in Sources */,
 				3C6AD5091C6B04E900E56697 /* GZYFriendTrendsViewController.m in Sources */,
 				3C6AD5101C6B04E900E56697 /* main.m in Sources */,
 				3C6AD50C1C6B04E900E56697 /* AppDelegate.m in Sources */,

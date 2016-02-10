@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    //设置背景
+    self.view.backgroundColor = GZYGlobalBg;
+    
+    
     //设置导航标题
     self.navigationItem.title = @"我的";
     
@@ -37,6 +42,20 @@
 
 -(void)nightClicked:(UIButton *)button{
     GZYLogFunc;
+}
+
+
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    UIViewController *viewController = [[UIViewController alloc] init];
+    
+    viewController.view.backgroundColor = GZYRGBColor(200, 100, 50);
+    
+    
+    [self.navigationController pushViewController:viewController animated:YES];
+    
+    
 }
 
 @end
