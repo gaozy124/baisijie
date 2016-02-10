@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  山寨百思姐
+//
+//  Created by 高志宇 on 16/2/9.
+//  Copyright © 2016年 高志宇. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+GZYExtension.h"
+#import "UIBarButtonItem+GZYExtension.h"
+
+#ifdef DEBUG
+#define GZYLog(...) NSLog(__VA_ARGS__)
+#define GZYLogFunc NSLog(@"%s",__func__)
+#else 
+#define GZYLog(...)
+#define GZYLogFunc
+#endif
+
+
+#endif /* PrefixHeader_pch */
+
+
+

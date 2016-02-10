@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C11CB471C69B2A9004E5BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11CB461C69B2A9004E5BDA /* main.m */; };
-		3C11CB4A1C69B2A9004E5BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11CB491C69B2A9004E5BDA /* AppDelegate.m */; };
-		3C11CB4D1C69B2A9004E5BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11CB4C1C69B2A9004E5BDA /* ViewController.m */; };
 		3C11CB521C69B2A9004E5BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C11CB511C69B2A9004E5BDA /* Assets.xcassets */; };
 		3C11CB601C69B2A9004E5BDA /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11CB5F1C69B2A9004E5BDA /* _____Tests.m */; };
 		3C11CB6B1C69B2A9004E5BDA /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11CB6A1C69B2A9004E5BDA /* _____UITests.m */; };
+		3C6AD5081C6B04E900E56697 /* GZYEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD4E31C6B04E900E56697 /* GZYEssenceViewController.m */; };
+		3C6AD5091C6B04E900E56697 /* GZYFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD4E91C6B04E900E56697 /* GZYFriendTrendsViewController.m */; };
+		3C6AD50A1C6B04E900E56697 /* GZYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD4EF1C6B04E900E56697 /* GZYMeViewController.m */; };
+		3C6AD50B1C6B04E900E56697 /* GZYNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD4F51C6B04E900E56697 /* GZYNewViewController.m */; };
+		3C6AD50C1C6B04E900E56697 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD4FA1C6B04E900E56697 /* AppDelegate.m */; };
+		3C6AD50D1C6B04E900E56697 /* UIBarButtonItem+GZYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD4FD1C6B04E900E56697 /* UIBarButtonItem+GZYExtension.m */; };
+		3C6AD50E1C6B04E900E56697 /* UIView+GZYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD4FF1C6B04E900E56697 /* UIView+GZYExtension.m */; };
+		3C6AD50F1C6B04E900E56697 /* GZYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD5021C6B04E900E56697 /* GZYTabBarController.m */; };
+		3C6AD5101C6B04E900E56697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD5031C6B04E900E56697 /* main.m */; };
+		3C6AD5111C6B04E900E56697 /* GZYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD5071C6B04E900E56697 /* GZYTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +41,6 @@
 
 /* Begin PBXFileReference section */
 		3C11CB421C69B2A9004E5BDA /* 山寨百思姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "山寨百思姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C11CB461C69B2A9004E5BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3C11CB481C69B2A9004E5BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3C11CB491C69B2A9004E5BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C11CB4B1C69B2A9004E5BDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C11CB4C1C69B2A9004E5BDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3C11CB511C69B2A9004E5BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C11CB561C69B2A9004E5BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C11CB5B1C69B2A9004E5BDA /* 山寨百思姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "山寨百思姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,26 @@
 		3C11CB661C69B2A9004E5BDA /* 山寨百思姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "山寨百思姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C11CB6A1C69B2A9004E5BDA /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		3C11CB6C1C69B2A9004E5BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6AD4E21C6B04E900E56697 /* GZYEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYEssenceViewController.h; sourceTree = "<group>"; };
+		3C6AD4E31C6B04E900E56697 /* GZYEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYEssenceViewController.m; sourceTree = "<group>"; };
+		3C6AD4E81C6B04E900E56697 /* GZYFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYFriendTrendsViewController.h; sourceTree = "<group>"; };
+		3C6AD4E91C6B04E900E56697 /* GZYFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYFriendTrendsViewController.m; sourceTree = "<group>"; };
+		3C6AD4EE1C6B04E900E56697 /* GZYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYMeViewController.h; sourceTree = "<group>"; };
+		3C6AD4EF1C6B04E900E56697 /* GZYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYMeViewController.m; sourceTree = "<group>"; };
+		3C6AD4F41C6B04E900E56697 /* GZYNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYNewViewController.h; sourceTree = "<group>"; };
+		3C6AD4F51C6B04E900E56697 /* GZYNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYNewViewController.m; sourceTree = "<group>"; };
+		3C6AD4F91C6B04E900E56697 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C6AD4FA1C6B04E900E56697 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C6AD4FC1C6B04E900E56697 /* UIBarButtonItem+GZYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+GZYExtension.h"; sourceTree = "<group>"; };
+		3C6AD4FD1C6B04E900E56697 /* UIBarButtonItem+GZYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+GZYExtension.m"; sourceTree = "<group>"; };
+		3C6AD4FE1C6B04E900E56697 /* UIView+GZYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GZYExtension.h"; sourceTree = "<group>"; };
+		3C6AD4FF1C6B04E900E56697 /* UIView+GZYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GZYExtension.m"; sourceTree = "<group>"; };
+		3C6AD5011C6B04E900E56697 /* GZYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYTabBarController.h; sourceTree = "<group>"; };
+		3C6AD5021C6B04E900E56697 /* GZYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYTabBarController.m; sourceTree = "<group>"; };
+		3C6AD5031C6B04E900E56697 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C6AD5041C6B04E900E56697 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3C6AD5061C6B04E900E56697 /* GZYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYTabBar.h; sourceTree = "<group>"; };
+		3C6AD5071C6B04E900E56697 /* GZYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +119,7 @@
 		3C11CB441C69B2A9004E5BDA /* 山寨百思姐 */ = {
 			isa = PBXGroup;
 			children = (
-				3C11CB481C69B2A9004E5BDA /* AppDelegate.h */,
-				3C11CB491C69B2A9004E5BDA /* AppDelegate.m */,
-				3C11CB4B1C69B2A9004E5BDA /* ViewController.h */,
-				3C11CB4C1C69B2A9004E5BDA /* ViewController.m */,
+				3C6AD4DF1C6B04E900E56697 /* Classes */,
 				3C11CB451C69B2A9004E5BDA /* Supporting Files */,
 			);
 			path = "山寨百思姐";
@@ -111,7 +130,6 @@
 			children = (
 				3C11CB511C69B2A9004E5BDA /* Assets.xcassets */,
 				3C11CB561C69B2A9004E5BDA /* Info.plist */,
-				3C11CB461C69B2A9004E5BDA /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,6 +150,193 @@
 				3C11CB6C1C69B2A9004E5BDA /* Info.plist */,
 			);
 			path = "山寨百思姐UITests";
+			sourceTree = "<group>";
+		};
+		3C6AD4DF1C6B04E900E56697 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD4E01C6B04E900E56697 /* Essence */,
+				3C6AD4E61C6B04E900E56697 /* FriendTrends */,
+				3C6AD4EC1C6B04E900E56697 /* Me */,
+				3C6AD4F21C6B04E900E56697 /* New */,
+				3C6AD4F81C6B04E900E56697 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3C6AD4E01C6B04E900E56697 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD4E11C6B04E900E56697 /* Controller */,
+				3C6AD4E41C6B04E900E56697 /* Model */,
+				3C6AD4E51C6B04E900E56697 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		3C6AD4E11C6B04E900E56697 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD4E21C6B04E900E56697 /* GZYEssenceViewController.h */,
+				3C6AD4E31C6B04E900E56697 /* GZYEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C6AD4E41C6B04E900E56697 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C6AD4E51C6B04E900E56697 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C6AD4E61C6B04E900E56697 /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD4E71C6B04E900E56697 /* Controller */,
+				3C6AD4EA1C6B04E900E56697 /* Model */,
+				3C6AD4EB1C6B04E900E56697 /* View */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		3C6AD4E71C6B04E900E56697 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD4E81C6B04E900E56697 /* GZYFriendTrendsViewController.h */,
+				3C6AD4E91C6B04E900E56697 /* GZYFriendTrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C6AD4EA1C6B04E900E56697 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C6AD4EB1C6B04E900E56697 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C6AD4EC1C6B04E900E56697 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD4ED1C6B04E900E56697 /* Controller */,
+				3C6AD4F01C6B04E900E56697 /* Model */,
+				3C6AD4F11C6B04E900E56697 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		3C6AD4ED1C6B04E900E56697 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD4EE1C6B04E900E56697 /* GZYMeViewController.h */,
+				3C6AD4EF1C6B04E900E56697 /* GZYMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C6AD4F01C6B04E900E56697 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C6AD4F11C6B04E900E56697 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C6AD4F21C6B04E900E56697 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD4F31C6B04E900E56697 /* Controller */,
+				3C6AD4F61C6B04E900E56697 /* Model */,
+				3C6AD4F71C6B04E900E56697 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		3C6AD4F31C6B04E900E56697 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD4F41C6B04E900E56697 /* GZYNewViewController.h */,
+				3C6AD4F51C6B04E900E56697 /* GZYNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C6AD4F61C6B04E900E56697 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C6AD4F71C6B04E900E56697 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C6AD4F81C6B04E900E56697 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD5001C6B04E900E56697 /* Controller */,
+				3C6AD5051C6B04E900E56697 /* View */,
+				3C6AD4FB1C6B04E900E56697 /* Category */,
+				3C6AD4F91C6B04E900E56697 /* AppDelegate.h */,
+				3C6AD4FA1C6B04E900E56697 /* AppDelegate.m */,
+				3C6AD5031C6B04E900E56697 /* main.m */,
+				3C6AD5041C6B04E900E56697 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3C6AD4FB1C6B04E900E56697 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD4FC1C6B04E900E56697 /* UIBarButtonItem+GZYExtension.h */,
+				3C6AD4FD1C6B04E900E56697 /* UIBarButtonItem+GZYExtension.m */,
+				3C6AD4FE1C6B04E900E56697 /* UIView+GZYExtension.h */,
+				3C6AD4FF1C6B04E900E56697 /* UIView+GZYExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3C6AD5001C6B04E900E56697 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD5011C6B04E900E56697 /* GZYTabBarController.h */,
+				3C6AD5021C6B04E900E56697 /* GZYTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C6AD5051C6B04E900E56697 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AD5061C6B04E900E56697 /* GZYTabBar.h */,
+				3C6AD5071C6B04E900E56697 /* GZYTabBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +401,7 @@
 		3C11CB3A1C69B2A9004E5BDA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GZY;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "高志宇";
 				TargetAttributes = {
@@ -262,9 +468,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C11CB4D1C69B2A9004E5BDA /* ViewController.m in Sources */,
-				3C11CB4A1C69B2A9004E5BDA /* AppDelegate.m in Sources */,
-				3C11CB471C69B2A9004E5BDA /* main.m in Sources */,
+				3C6AD50E1C6B04E900E56697 /* UIView+GZYExtension.m in Sources */,
+				3C6AD50B1C6B04E900E56697 /* GZYNewViewController.m in Sources */,
+				3C6AD50F1C6B04E900E56697 /* GZYTabBarController.m in Sources */,
+				3C6AD50A1C6B04E900E56697 /* GZYMeViewController.m in Sources */,
+				3C6AD5081C6B04E900E56697 /* GZYEssenceViewController.m in Sources */,
+				3C6AD50D1C6B04E900E56697 /* UIBarButtonItem+GZYExtension.m in Sources */,
+				3C6AD5111C6B04E900E56697 /* GZYTabBar.m in Sources */,
+				3C6AD5091C6B04E900E56697 /* GZYFriendTrendsViewController.m in Sources */,
+				3C6AD5101C6B04E900E56697 /* main.m in Sources */,
+				3C6AD50C1C6B04E900E56697 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +600,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "山寨百思姐/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "山寨百思姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moonhome.-----";
@@ -399,6 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "山寨百思姐/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "山寨百思姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moonhome.-----";
@@ -473,6 +688,7 @@
 				3C11CB711C69B2A9004E5BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C11CB721C69B2A9004E5BDA /* Build configuration list for PBXNativeTarget "山寨百思姐Tests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +697,7 @@
 				3C11CB741C69B2A9004E5BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C11CB751C69B2A9004E5BDA /* Build configuration list for PBXNativeTarget "山寨百思姐UITests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +706,7 @@
 				3C11CB771C69B2A9004E5BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
