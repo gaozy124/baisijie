@@ -7,6 +7,8 @@
 //
 
 #import "GZYFriendTrendsViewController.h"
+#import "GZYRecomendViewController.h"
+#import "GZYLoginAndRegisterViewController.h"
 
 @interface GZYFriendTrendsViewController ()
 
@@ -39,21 +41,36 @@
 
 //导航按钮点击
 -(void)friendClicked:(UIButton *)button{
-    GZYLogFunc;
-}
-
-
-
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
-    UIViewController *viewController = [[UIViewController alloc] init];
-    
-    viewController.view.backgroundColor = GZYRGBColor(200, 100, 50);
-    
-    
-    [self.navigationController pushViewController:viewController animated:YES];
+    GZYRecomendViewController *vc = [[GZYRecomendViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
     
     
 }
+
+- (IBAction)loginButtonClicked:(id)sender {
+    
+    GZYLoginAndRegisterViewController *vc = [[GZYLoginAndRegisterViewController  alloc] init];
+    
+    [self presentViewController:vc animated:YES completion:nil];
+    
+    
+    
+    
+    
+}
+
+
+//-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    
+//    UIViewController *viewController = [[UIViewController alloc] init];
+//    
+//    viewController.view.backgroundColor = GZYRGBColor(200, 100, 50);
+//    
+//    
+//    [self.navigationController pushViewController:viewController animated:YES];
+//    
+//    
+//}
 
 @end

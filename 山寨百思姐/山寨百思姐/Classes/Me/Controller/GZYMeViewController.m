@@ -7,6 +7,7 @@
 //
 
 #import "GZYMeViewController.h"
+#import <AFNetworking.h>
 
 @interface GZYMeViewController ()
 
@@ -52,10 +53,8 @@
     
     viewController.view.backgroundColor = GZYRGBColor(200, 100, 50);
     
-    
     [self.navigationController pushViewController:viewController animated:YES];
-    
-    
+
 }
 
 @end

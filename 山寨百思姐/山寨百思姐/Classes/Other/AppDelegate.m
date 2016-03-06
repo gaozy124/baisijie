@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "GZYTabBarController.h"
+#import "GZYGuideView.h"
+#import <UIImageView+WebCache.h>
 
 @interface AppDelegate ()
 
@@ -32,6 +34,12 @@
     //显示窗口
     [self.window makeKeyAndVisible];
     
+    //显示引导视图
+    [GZYGuideView show];
+    
+    //设置图片缓存
+    [SDImageCache sharedImageCache].maxCacheSize = GZYMaxCache;
+    [SDImageCache sharedImageCache].maxMemoryCost = GZYMaxMemory;
     
     return YES;
 }
@@ -57,5 +65,7 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
 
 @end

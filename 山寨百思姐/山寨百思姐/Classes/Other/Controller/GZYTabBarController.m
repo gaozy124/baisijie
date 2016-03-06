@@ -41,7 +41,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     //添加子控制器
     [self setupVc:[[GZYEssenceViewController alloc] init] tittle:@"精华" imageName:@"tabBar_essence_icon" selectedImageName:@"tabBar_essence_click_icon"];
     [self setupVc:[[GZYNewViewController alloc] init] tittle:@"新帖" imageName:@"tabBar_new_icon" selectedImageName:@"tabBar_new_click_icon"];

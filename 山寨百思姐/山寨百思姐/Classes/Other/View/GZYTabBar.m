@@ -7,6 +7,7 @@
 //
 
 #import "GZYTabBar.h"
+#import "GZYPublishView.h"
 
 
 @interface GZYTabBar()
@@ -32,15 +33,25 @@
         
         [publishButton setImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
         [publishButton setImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
+        [publishButton addTarget:self action:@selector(showPubulishView) forControlEvents:UIControlEventTouchUpInside];
         self.publishButton = publishButton;
         
         [self addSubview:self.publishButton];
+
     }
     
     
     return self;
 }
 
+
+-(void)showPubulishView{
+    
+    
+    [GZYPublishView show];
+    
+    
+}
 
 //设置按钮布局
 -(void)layoutSubviews{

@@ -7,9 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0ED6C41C82CD8400AF5E47 /* GZYTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ED6C21C82CD8400AF5E47 /* GZYTopicCell.m */; };
+		3C0ED6C51C82CD8400AF5E47 /* GZYTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0ED6C31C82CD8400AF5E47 /* GZYTopicCell.xib */; };
+		3C0ED6C81C82F46900AF5E47 /* GZYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ED6C71C82F46900AF5E47 /* GZYLabel.m */; };
+		3C0ED6CB1C83195F00AF5E47 /* GZYPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ED6CA1C83195F00AF5E47 /* GZYPictureView.m */; };
+		3C0ED6CD1C83197500AF5E47 /* GZYPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0ED6CC1C83197500AF5E47 /* GZYPictureView.xib */; };
 		3C11CB521C69B2A9004E5BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C11CB511C69B2A9004E5BDA /* Assets.xcassets */; };
 		3C11CB601C69B2A9004E5BDA /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11CB5F1C69B2A9004E5BDA /* _____Tests.m */; };
 		3C11CB6B1C69B2A9004E5BDA /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C11CB6A1C69B2A9004E5BDA /* _____UITests.m */; };
+		3C12672A1C8AA292004E71E0 /* GZYVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1267291C8AA292004E71E0 /* GZYVoiceView.m */; };
+		3C12672C1C8AA2A6004E71E0 /* GZYVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C12672B1C8AA2A6004E71E0 /* GZYVoiceView.xib */; };
+		3C12672E1C8AA2CB004E71E0 /* GZYVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C12672D1C8AA2CB004E71E0 /* GZYVideoView.xib */; };
+		3C1267311C8AA2E0004E71E0 /* GZYVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1267301C8AA2DF004E71E0 /* GZYVideoView.m */; };
+		3C1267341C8ABD22004E71E0 /* GZYPublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1267331C8ABD22004E71E0 /* GZYPublishView.m */; };
+		3C1267361C8ABD37004E71E0 /* GZYPublishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1267351C8ABD37004E71E0 /* GZYPublishView.xib */; };
+		3C52058D1C85D234003E514B /* NSDate+GZYDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C52058C1C85D234003E514B /* NSDate+GZYDate.m */; };
+		3C57EAE71C77573700B16577 /* GZYTittlesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C57EAE61C77573700B16577 /* GZYTittlesView.m */; };
+		3C5A500C1C844AC10099C903 /* GZYSeeBigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A500A1C844AC10099C903 /* GZYSeeBigViewController.m */; };
+		3C5A500D1C844AC10099C903 /* GZYSeeBigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C5A500B1C844AC10099C903 /* GZYSeeBigViewController.xib */; };
+		3C5A50101C84A8C30099C903 /* GZYProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A500F1C84A8C30099C903 /* GZYProgressView.m */; };
+		3C69DB321C78529400B2BE09 /* GZYGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C69DB311C78529400B2BE09 /* GZYGuideView.m */; };
+		3C69DB341C7852AE00B2BE09 /* GZYGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C69DB331C7852AE00B2BE09 /* GZYGuideView.xib */; };
+		3C69DB381C78628200B2BE09 /* GZYLoginAndRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C69DB361C78628200B2BE09 /* GZYLoginAndRegisterViewController.m */; };
+		3C69DB391C78628200B2BE09 /* GZYLoginAndRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C69DB371C78628200B2BE09 /* GZYLoginAndRegisterViewController.xib */; };
+		3C69DB3C1C78840400B2BE09 /* GZYLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C69DB3B1C78840400B2BE09 /* GZYLoginButton.m */; };
+		3C69DB3F1C78A07600B2BE09 /* GZYPlaceHolderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C69DB3E1C78A07600B2BE09 /* GZYPlaceHolderTextField.m */; };
+		3C6A0D6A1C6D81DE00B54C93 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A0D691C6D81DE00B54C93 /* Foundation+Log.m */; };
+		3C6A0D6D1C6D9D2400B54C93 /* GZYRecomendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A0D6C1C6D9D2400B54C93 /* GZYRecomendCategory.m */; };
+		3C6A0D711C6D9DFD00B54C93 /* GZYRecomendCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A0D6F1C6D9DFD00B54C93 /* GZYRecomendCategoryTableViewCell.m */; };
+		3C6A0D721C6D9DFD00B54C93 /* GZYRecomendCategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C6A0D701C6D9DFD00B54C93 /* GZYRecomendCategoryTableViewCell.xib */; };
+		3C6A0D761C6DD2E500B54C93 /* GZYRecomendUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A0D741C6DD2E500B54C93 /* GZYRecomendUserTableViewCell.m */; };
+		3C6A0D771C6DD2E500B54C93 /* GZYRecomendUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C6A0D751C6DD2E500B54C93 /* GZYRecomendUserTableViewCell.xib */; };
+		3C6A0D7A1C6DD81800B54C93 /* GZYRecomendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A0D791C6DD81800B54C93 /* GZYRecomendUser.m */; };
 		3C6AD5081C6B04E900E56697 /* GZYEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD4E31C6B04E900E56697 /* GZYEssenceViewController.m */; };
 		3C6AD5091C6B04E900E56697 /* GZYFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD4E91C6B04E900E56697 /* GZYFriendTrendsViewController.m */; };
 		3C6AD50A1C6B04E900E56697 /* GZYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD4EF1C6B04E900E56697 /* GZYMeViewController.m */; };
@@ -21,6 +50,18 @@
 		3C6AD5101C6B04E900E56697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD5031C6B04E900E56697 /* main.m */; };
 		3C6AD5111C6B04E900E56697 /* GZYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD5071C6B04E900E56697 /* GZYTabBar.m */; };
 		3C6AD5141C6B187700E56697 /* GZYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AD5131C6B187700E56697 /* GZYNavigationController.m */; };
+		3C750A4B1C86EDE300597BA7 /* NSIndexPath+GZYIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C750A4A1C86EDE300597BA7 /* NSIndexPath+GZYIndexPath.m */; };
+		3C8412CD1C81BBF40035CB41 /* GZYConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8412CC1C81BBF40035CB41 /* GZYConstant.m */; };
+		3C8412D01C81C3790035CB41 /* GZYTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8412CF1C81C3790035CB41 /* GZYTopicViewController.m */; };
+		3C8412D31C81C43A0035CB41 /* GZYTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8412D21C81C43A0035CB41 /* GZYTopic.m */; };
+		3C89C3661C70A06B00BEE3EC /* GZYRecomendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C89C3651C70A06B00BEE3EC /* GZYRecomendTagsViewController.m */; };
+		3C89C3691C70A1E000BEE3EC /* GZYRecomendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C89C3681C70A1E000BEE3EC /* GZYRecomendTag.m */; };
+		3C89C36D1C70A83D00BEE3EC /* GZYRecomendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C89C36B1C70A83D00BEE3EC /* GZYRecomendTagCell.m */; };
+		3C89C36E1C70A83D00BEE3EC /* GZYRecomendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C89C36C1C70A83D00BEE3EC /* GZYRecomendTagCell.xib */; };
+		3CC7C82E1C6B35EF00F69E85 /* GZYFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CC7C82D1C6B35EF00F69E85 /* GZYFriendTrendsViewController.xib */; };
+		3CF4BDFA1C6B8D380049F830 /* GZYRecomendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4BDF81C6B8D380049F830 /* GZYRecomendViewController.m */; };
+		3CF4BDFB1C6B8D380049F830 /* GZYRecomendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4BDF91C6B8D380049F830 /* GZYRecomendViewController.xib */; };
+		9F17E9BDD8842C49A8AB2DBA /* libPods-山寨百思姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FC2798AE9F5D6ECCFD73CD /* libPods-山寨百思姐.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +82,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15FC2798AE9F5D6ECCFD73CD /* libPods-山寨百思姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-山寨百思姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0ED6C11C82CD8400AF5E47 /* GZYTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYTopicCell.h; sourceTree = "<group>"; };
+		3C0ED6C21C82CD8400AF5E47 /* GZYTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYTopicCell.m; sourceTree = "<group>"; };
+		3C0ED6C31C82CD8400AF5E47 /* GZYTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYTopicCell.xib; sourceTree = "<group>"; };
+		3C0ED6C61C82F46900AF5E47 /* GZYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYLabel.h; sourceTree = "<group>"; };
+		3C0ED6C71C82F46900AF5E47 /* GZYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYLabel.m; sourceTree = "<group>"; };
+		3C0ED6C91C83195F00AF5E47 /* GZYPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYPictureView.h; sourceTree = "<group>"; };
+		3C0ED6CA1C83195F00AF5E47 /* GZYPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYPictureView.m; sourceTree = "<group>"; };
+		3C0ED6CC1C83197500AF5E47 /* GZYPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYPictureView.xib; sourceTree = "<group>"; };
 		3C11CB421C69B2A9004E5BDA /* 山寨百思姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "山寨百思姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C11CB511C69B2A9004E5BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C11CB561C69B2A9004E5BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +100,45 @@
 		3C11CB661C69B2A9004E5BDA /* 山寨百思姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "山寨百思姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C11CB6A1C69B2A9004E5BDA /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		3C11CB6C1C69B2A9004E5BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1267281C8AA292004E71E0 /* GZYVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYVoiceView.h; sourceTree = "<group>"; };
+		3C1267291C8AA292004E71E0 /* GZYVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYVoiceView.m; sourceTree = "<group>"; };
+		3C12672B1C8AA2A6004E71E0 /* GZYVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYVoiceView.xib; sourceTree = "<group>"; };
+		3C12672D1C8AA2CB004E71E0 /* GZYVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYVideoView.xib; sourceTree = "<group>"; };
+		3C12672F1C8AA2DF004E71E0 /* GZYVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYVideoView.h; sourceTree = "<group>"; };
+		3C1267301C8AA2DF004E71E0 /* GZYVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYVideoView.m; sourceTree = "<group>"; };
+		3C1267321C8ABD22004E71E0 /* GZYPublishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYPublishView.h; sourceTree = "<group>"; };
+		3C1267331C8ABD22004E71E0 /* GZYPublishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYPublishView.m; sourceTree = "<group>"; };
+		3C1267351C8ABD37004E71E0 /* GZYPublishView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYPublishView.xib; sourceTree = "<group>"; };
+		3C52058B1C85D234003E514B /* NSDate+GZYDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+GZYDate.h"; sourceTree = "<group>"; };
+		3C52058C1C85D234003E514B /* NSDate+GZYDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+GZYDate.m"; sourceTree = "<group>"; };
+		3C57EAE51C77573700B16577 /* GZYTittlesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYTittlesView.h; sourceTree = "<group>"; };
+		3C57EAE61C77573700B16577 /* GZYTittlesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYTittlesView.m; sourceTree = "<group>"; };
+		3C5A50091C844AC10099C903 /* GZYSeeBigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYSeeBigViewController.h; sourceTree = "<group>"; };
+		3C5A500A1C844AC10099C903 /* GZYSeeBigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYSeeBigViewController.m; sourceTree = "<group>"; };
+		3C5A500B1C844AC10099C903 /* GZYSeeBigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYSeeBigViewController.xib; sourceTree = "<group>"; };
+		3C5A500E1C84A8C30099C903 /* GZYProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYProgressView.h; sourceTree = "<group>"; };
+		3C5A500F1C84A8C30099C903 /* GZYProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYProgressView.m; sourceTree = "<group>"; };
+		3C69DB301C78529400B2BE09 /* GZYGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYGuideView.h; sourceTree = "<group>"; };
+		3C69DB311C78529400B2BE09 /* GZYGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYGuideView.m; sourceTree = "<group>"; };
+		3C69DB331C7852AE00B2BE09 /* GZYGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYGuideView.xib; sourceTree = "<group>"; };
+		3C69DB351C78628200B2BE09 /* GZYLoginAndRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYLoginAndRegisterViewController.h; sourceTree = "<group>"; };
+		3C69DB361C78628200B2BE09 /* GZYLoginAndRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYLoginAndRegisterViewController.m; sourceTree = "<group>"; };
+		3C69DB371C78628200B2BE09 /* GZYLoginAndRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYLoginAndRegisterViewController.xib; sourceTree = "<group>"; };
+		3C69DB3A1C78840400B2BE09 /* GZYLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZYLoginButton.h; path = ../../Other/View/GZYLoginButton.h; sourceTree = "<group>"; };
+		3C69DB3B1C78840400B2BE09 /* GZYLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZYLoginButton.m; path = ../../Other/View/GZYLoginButton.m; sourceTree = "<group>"; };
+		3C69DB3D1C78A07600B2BE09 /* GZYPlaceHolderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYPlaceHolderTextField.h; sourceTree = "<group>"; };
+		3C69DB3E1C78A07600B2BE09 /* GZYPlaceHolderTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYPlaceHolderTextField.m; sourceTree = "<group>"; };
+		3C6A0D691C6D81DE00B54C93 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Foundation+Log.m"; path = "../Foundation+Log.m"; sourceTree = "<group>"; };
+		3C6A0D6B1C6D9D2400B54C93 /* GZYRecomendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYRecomendCategory.h; sourceTree = "<group>"; };
+		3C6A0D6C1C6D9D2400B54C93 /* GZYRecomendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYRecomendCategory.m; sourceTree = "<group>"; };
+		3C6A0D6E1C6D9DFD00B54C93 /* GZYRecomendCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYRecomendCategoryTableViewCell.h; sourceTree = "<group>"; };
+		3C6A0D6F1C6D9DFD00B54C93 /* GZYRecomendCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYRecomendCategoryTableViewCell.m; sourceTree = "<group>"; };
+		3C6A0D701C6D9DFD00B54C93 /* GZYRecomendCategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYRecomendCategoryTableViewCell.xib; sourceTree = "<group>"; };
+		3C6A0D731C6DD2E500B54C93 /* GZYRecomendUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYRecomendUserTableViewCell.h; sourceTree = "<group>"; };
+		3C6A0D741C6DD2E500B54C93 /* GZYRecomendUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYRecomendUserTableViewCell.m; sourceTree = "<group>"; };
+		3C6A0D751C6DD2E500B54C93 /* GZYRecomendUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYRecomendUserTableViewCell.xib; sourceTree = "<group>"; };
+		3C6A0D781C6DD81800B54C93 /* GZYRecomendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYRecomendUser.h; sourceTree = "<group>"; };
+		3C6A0D791C6DD81800B54C93 /* GZYRecomendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYRecomendUser.m; sourceTree = "<group>"; };
 		3C6AD4E21C6B04E900E56697 /* GZYEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYEssenceViewController.h; sourceTree = "<group>"; };
 		3C6AD4E31C6B04E900E56697 /* GZYEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYEssenceViewController.m; sourceTree = "<group>"; };
 		3C6AD4E81C6B04E900E56697 /* GZYFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -72,6 +161,27 @@
 		3C6AD5071C6B04E900E56697 /* GZYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYTabBar.m; sourceTree = "<group>"; };
 		3C6AD5121C6B187700E56697 /* GZYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYNavigationController.h; sourceTree = "<group>"; };
 		3C6AD5131C6B187700E56697 /* GZYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYNavigationController.m; sourceTree = "<group>"; };
+		3C750A491C86EDE300597BA7 /* NSIndexPath+GZYIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+GZYIndexPath.h"; sourceTree = "<group>"; };
+		3C750A4A1C86EDE300597BA7 /* NSIndexPath+GZYIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+GZYIndexPath.m"; sourceTree = "<group>"; };
+		3C8412CB1C81BBF40035CB41 /* GZYConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYConstant.h; sourceTree = "<group>"; };
+		3C8412CC1C81BBF40035CB41 /* GZYConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYConstant.m; sourceTree = "<group>"; };
+		3C8412CE1C81C3790035CB41 /* GZYTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYTopicViewController.h; sourceTree = "<group>"; };
+		3C8412CF1C81C3790035CB41 /* GZYTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYTopicViewController.m; sourceTree = "<group>"; };
+		3C8412D11C81C43A0035CB41 /* GZYTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYTopic.h; sourceTree = "<group>"; };
+		3C8412D21C81C43A0035CB41 /* GZYTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYTopic.m; sourceTree = "<group>"; };
+		3C89C3641C70A06B00BEE3EC /* GZYRecomendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYRecomendTagsViewController.h; sourceTree = "<group>"; };
+		3C89C3651C70A06B00BEE3EC /* GZYRecomendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYRecomendTagsViewController.m; sourceTree = "<group>"; };
+		3C89C3671C70A1E000BEE3EC /* GZYRecomendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYRecomendTag.h; sourceTree = "<group>"; };
+		3C89C3681C70A1E000BEE3EC /* GZYRecomendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYRecomendTag.m; sourceTree = "<group>"; };
+		3C89C36A1C70A83D00BEE3EC /* GZYRecomendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYRecomendTagCell.h; sourceTree = "<group>"; };
+		3C89C36B1C70A83D00BEE3EC /* GZYRecomendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYRecomendTagCell.m; sourceTree = "<group>"; };
+		3C89C36C1C70A83D00BEE3EC /* GZYRecomendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYRecomendTagCell.xib; sourceTree = "<group>"; };
+		3CC7C82D1C6B35EF00F69E85 /* GZYFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		3CF4BDF71C6B8D380049F830 /* GZYRecomendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYRecomendViewController.h; sourceTree = "<group>"; };
+		3CF4BDF81C6B8D380049F830 /* GZYRecomendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYRecomendViewController.m; sourceTree = "<group>"; };
+		3CF4BDF91C6B8D380049F830 /* GZYRecomendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYRecomendViewController.xib; sourceTree = "<group>"; };
+		5EA50849E4EED91BC17EB197 /* Pods-山寨百思姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-山寨百思姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-山寨百思姐/Pods-山寨百思姐.release.xcconfig"; sourceTree = "<group>"; };
+		D2F63D71483A97455E6C57F5 /* Pods-山寨百思姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-山寨百思姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-山寨百思姐/Pods-山寨百思姐.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F17E9BDD8842C49A8AB2DBA /* libPods-山寨百思姐.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +217,8 @@
 				3C11CB5E1C69B2A9004E5BDA /* 山寨百思姐Tests */,
 				3C11CB691C69B2A9004E5BDA /* 山寨百思姐UITests */,
 				3C11CB431C69B2A9004E5BDA /* Products */,
+				6353F8AA4A7F90F81D287D23 /* Pods */,
+				9967B1CDC7D0A3586276CBF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,6 +295,13 @@
 			children = (
 				3C6AD4E21C6B04E900E56697 /* GZYEssenceViewController.h */,
 				3C6AD4E31C6B04E900E56697 /* GZYEssenceViewController.m */,
+				3C89C3641C70A06B00BEE3EC /* GZYRecomendTagsViewController.h */,
+				3C89C3651C70A06B00BEE3EC /* GZYRecomendTagsViewController.m */,
+				3C8412CE1C81C3790035CB41 /* GZYTopicViewController.h */,
+				3C8412CF1C81C3790035CB41 /* GZYTopicViewController.m */,
+				3C5A50091C844AC10099C903 /* GZYSeeBigViewController.h */,
+				3C5A500A1C844AC10099C903 /* GZYSeeBigViewController.m */,
+				3C5A500B1C844AC10099C903 /* GZYSeeBigViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,6 +309,10 @@
 		3C6AD4E41C6B04E900E56697 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3C89C3671C70A1E000BEE3EC /* GZYRecomendTag.h */,
+				3C89C3681C70A1E000BEE3EC /* GZYRecomendTag.m */,
+				3C8412D11C81C43A0035CB41 /* GZYTopic.h */,
+				3C8412D21C81C43A0035CB41 /* GZYTopic.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -196,6 +320,27 @@
 		3C6AD4E51C6B04E900E56697 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3C89C36A1C70A83D00BEE3EC /* GZYRecomendTagCell.h */,
+				3C89C36B1C70A83D00BEE3EC /* GZYRecomendTagCell.m */,
+				3C89C36C1C70A83D00BEE3EC /* GZYRecomendTagCell.xib */,
+				3C57EAE51C77573700B16577 /* GZYTittlesView.h */,
+				3C57EAE61C77573700B16577 /* GZYTittlesView.m */,
+				3C0ED6C11C82CD8400AF5E47 /* GZYTopicCell.h */,
+				3C0ED6C21C82CD8400AF5E47 /* GZYTopicCell.m */,
+				3C0ED6C31C82CD8400AF5E47 /* GZYTopicCell.xib */,
+				3C0ED6C61C82F46900AF5E47 /* GZYLabel.h */,
+				3C0ED6C71C82F46900AF5E47 /* GZYLabel.m */,
+				3C0ED6C91C83195F00AF5E47 /* GZYPictureView.h */,
+				3C0ED6CA1C83195F00AF5E47 /* GZYPictureView.m */,
+				3C0ED6CC1C83197500AF5E47 /* GZYPictureView.xib */,
+				3C5A500E1C84A8C30099C903 /* GZYProgressView.h */,
+				3C5A500F1C84A8C30099C903 /* GZYProgressView.m */,
+				3C1267281C8AA292004E71E0 /* GZYVoiceView.h */,
+				3C1267291C8AA292004E71E0 /* GZYVoiceView.m */,
+				3C12672B1C8AA2A6004E71E0 /* GZYVoiceView.xib */,
+				3C12672F1C8AA2DF004E71E0 /* GZYVideoView.h */,
+				3C1267301C8AA2DF004E71E0 /* GZYVideoView.m */,
+				3C12672D1C8AA2CB004E71E0 /* GZYVideoView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +360,13 @@
 			children = (
 				3C6AD4E81C6B04E900E56697 /* GZYFriendTrendsViewController.h */,
 				3C6AD4E91C6B04E900E56697 /* GZYFriendTrendsViewController.m */,
+				3CC7C82D1C6B35EF00F69E85 /* GZYFriendTrendsViewController.xib */,
+				3CF4BDF71C6B8D380049F830 /* GZYRecomendViewController.h */,
+				3CF4BDF81C6B8D380049F830 /* GZYRecomendViewController.m */,
+				3CF4BDF91C6B8D380049F830 /* GZYRecomendViewController.xib */,
+				3C69DB351C78628200B2BE09 /* GZYLoginAndRegisterViewController.h */,
+				3C69DB361C78628200B2BE09 /* GZYLoginAndRegisterViewController.m */,
+				3C69DB371C78628200B2BE09 /* GZYLoginAndRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -222,6 +374,10 @@
 		3C6AD4EA1C6B04E900E56697 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3C6A0D6B1C6D9D2400B54C93 /* GZYRecomendCategory.h */,
+				3C6A0D6C1C6D9D2400B54C93 /* GZYRecomendCategory.m */,
+				3C6A0D781C6DD81800B54C93 /* GZYRecomendUser.h */,
+				3C6A0D791C6DD81800B54C93 /* GZYRecomendUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -229,6 +385,16 @@
 		3C6AD4EB1C6B04E900E56697 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3C69DB3A1C78840400B2BE09 /* GZYLoginButton.h */,
+				3C69DB3B1C78840400B2BE09 /* GZYLoginButton.m */,
+				3C6A0D6E1C6D9DFD00B54C93 /* GZYRecomendCategoryTableViewCell.h */,
+				3C6A0D6F1C6D9DFD00B54C93 /* GZYRecomendCategoryTableViewCell.m */,
+				3C6A0D701C6D9DFD00B54C93 /* GZYRecomendCategoryTableViewCell.xib */,
+				3C6A0D731C6DD2E500B54C93 /* GZYRecomendUserTableViewCell.h */,
+				3C6A0D741C6DD2E500B54C93 /* GZYRecomendUserTableViewCell.m */,
+				3C6A0D751C6DD2E500B54C93 /* GZYRecomendUserTableViewCell.xib */,
+				3C69DB3D1C78A07600B2BE09 /* GZYPlaceHolderTextField.h */,
+				3C69DB3E1C78A07600B2BE09 /* GZYPlaceHolderTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -307,8 +473,8 @@
 				3C6AD4FB1C6B04E900E56697 /* Category */,
 				3C6AD4F91C6B04E900E56697 /* AppDelegate.h */,
 				3C6AD4FA1C6B04E900E56697 /* AppDelegate.m */,
-				3C6AD5031C6B04E900E56697 /* main.m */,
 				3C6AD5041C6B04E900E56697 /* PrefixHeader.pch */,
+				3C6AD5031C6B04E900E56697 /* main.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -316,10 +482,17 @@
 		3C6AD4FB1C6B04E900E56697 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3C6A0D691C6D81DE00B54C93 /* Foundation+Log.m */,
 				3C6AD4FC1C6B04E900E56697 /* UIBarButtonItem+GZYExtension.h */,
 				3C6AD4FD1C6B04E900E56697 /* UIBarButtonItem+GZYExtension.m */,
 				3C6AD4FE1C6B04E900E56697 /* UIView+GZYExtension.h */,
 				3C6AD4FF1C6B04E900E56697 /* UIView+GZYExtension.m */,
+				3C8412CB1C81BBF40035CB41 /* GZYConstant.h */,
+				3C8412CC1C81BBF40035CB41 /* GZYConstant.m */,
+				3C52058B1C85D234003E514B /* NSDate+GZYDate.h */,
+				3C52058C1C85D234003E514B /* NSDate+GZYDate.m */,
+				3C750A491C86EDE300597BA7 /* NSIndexPath+GZYIndexPath.h */,
+				3C750A4A1C86EDE300597BA7 /* NSIndexPath+GZYIndexPath.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -340,8 +513,31 @@
 			children = (
 				3C6AD5061C6B04E900E56697 /* GZYTabBar.h */,
 				3C6AD5071C6B04E900E56697 /* GZYTabBar.m */,
+				3C69DB301C78529400B2BE09 /* GZYGuideView.h */,
+				3C69DB311C78529400B2BE09 /* GZYGuideView.m */,
+				3C69DB331C7852AE00B2BE09 /* GZYGuideView.xib */,
+				3C1267321C8ABD22004E71E0 /* GZYPublishView.h */,
+				3C1267331C8ABD22004E71E0 /* GZYPublishView.m */,
+				3C1267351C8ABD37004E71E0 /* GZYPublishView.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		6353F8AA4A7F90F81D287D23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2F63D71483A97455E6C57F5 /* Pods-山寨百思姐.debug.xcconfig */,
+				5EA50849E4EED91BC17EB197 /* Pods-山寨百思姐.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9967B1CDC7D0A3586276CBF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15FC2798AE9F5D6ECCFD73CD /* libPods-山寨百思姐.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,9 +547,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C11CB6F1C69B2A9004E5BDA /* Build configuration list for PBXNativeTarget "山寨百思姐" */;
 			buildPhases = (
+				2FE414CB901E8DB165BBFE4B /* Check Pods Manifest.lock */,
 				3C11CB3E1C69B2A9004E5BDA /* Sources */,
 				3C11CB3F1C69B2A9004E5BDA /* Frameworks */,
 				3C11CB401C69B2A9004E5BDA /* Resources */,
+				86E34D5F6458A435AA4F7743 /* Embed Pods Frameworks */,
+				5C367005D7BA1BC7C3B94914 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -412,6 +611,7 @@
 				TargetAttributes = {
 					3C11CB411C69B2A9004E5BDA = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P627A82UDF;
 					};
 					3C11CB5A1C69B2A9004E5BDA = {
 						CreatedOnToolsVersion = 7.2;
@@ -448,7 +648,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C69DB391C78628200B2BE09 /* GZYLoginAndRegisterViewController.xib in Resources */,
+				3C12672E1C8AA2CB004E71E0 /* GZYVideoView.xib in Resources */,
+				3C5A500D1C844AC10099C903 /* GZYSeeBigViewController.xib in Resources */,
+				3C69DB341C7852AE00B2BE09 /* GZYGuideView.xib in Resources */,
 				3C11CB521C69B2A9004E5BDA /* Assets.xcassets in Resources */,
+				3C1267361C8ABD37004E71E0 /* GZYPublishView.xib in Resources */,
+				3C12672C1C8AA2A6004E71E0 /* GZYVoiceView.xib in Resources */,
+				3C6A0D721C6D9DFD00B54C93 /* GZYRecomendCategoryTableViewCell.xib in Resources */,
+				3C89C36E1C70A83D00BEE3EC /* GZYRecomendTagCell.xib in Resources */,
+				3C0ED6C51C82CD8400AF5E47 /* GZYTopicCell.xib in Resources */,
+				3C0ED6CD1C83197500AF5E47 /* GZYPictureView.xib in Resources */,
+				3C6A0D771C6DD2E500B54C93 /* GZYRecomendUserTableViewCell.xib in Resources */,
+				3CC7C82E1C6B35EF00F69E85 /* GZYFriendTrendsViewController.xib in Resources */,
+				3CF4BDFB1C6B8D380049F830 /* GZYRecomendViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,21 +681,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FE414CB901E8DB165BBFE4B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C367005D7BA1BC7C3B94914 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-山寨百思姐/Pods-山寨百思姐-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E34D5F6458A435AA4F7743 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-山寨百思姐/Pods-山寨百思姐-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C11CB3E1C69B2A9004E5BDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C69DB381C78628200B2BE09 /* GZYLoginAndRegisterViewController.m in Sources */,
+				3C0ED6C41C82CD8400AF5E47 /* GZYTopicCell.m in Sources */,
+				3C5A50101C84A8C30099C903 /* GZYProgressView.m in Sources */,
+				3C8412D01C81C3790035CB41 /* GZYTopicViewController.m in Sources */,
+				3C8412D31C81C43A0035CB41 /* GZYTopic.m in Sources */,
 				3C6AD50E1C6B04E900E56697 /* UIView+GZYExtension.m in Sources */,
 				3C6AD50B1C6B04E900E56697 /* GZYNewViewController.m in Sources */,
+				3C89C36D1C70A83D00BEE3EC /* GZYRecomendTagCell.m in Sources */,
+				3C0ED6C81C82F46900AF5E47 /* GZYLabel.m in Sources */,
+				3C6A0D761C6DD2E500B54C93 /* GZYRecomendUserTableViewCell.m in Sources */,
 				3C6AD50F1C6B04E900E56697 /* GZYTabBarController.m in Sources */,
+				3C1267311C8AA2E0004E71E0 /* GZYVideoView.m in Sources */,
 				3C6AD50A1C6B04E900E56697 /* GZYMeViewController.m in Sources */,
+				3C1267341C8ABD22004E71E0 /* GZYPublishView.m in Sources */,
+				3C750A4B1C86EDE300597BA7 /* NSIndexPath+GZYIndexPath.m in Sources */,
+				3C89C3691C70A1E000BEE3EC /* GZYRecomendTag.m in Sources */,
+				3C69DB3C1C78840400B2BE09 /* GZYLoginButton.m in Sources */,
+				3C8412CD1C81BBF40035CB41 /* GZYConstant.m in Sources */,
 				3C6AD5081C6B04E900E56697 /* GZYEssenceViewController.m in Sources */,
+				3C6A0D6D1C6D9D2400B54C93 /* GZYRecomendCategory.m in Sources */,
+				3C52058D1C85D234003E514B /* NSDate+GZYDate.m in Sources */,
+				3C69DB321C78529400B2BE09 /* GZYGuideView.m in Sources */,
 				3C6AD50D1C6B04E900E56697 /* UIBarButtonItem+GZYExtension.m in Sources */,
 				3C6AD5111C6B04E900E56697 /* GZYTabBar.m in Sources */,
+				3C6A0D711C6D9DFD00B54C93 /* GZYRecomendCategoryTableViewCell.m in Sources */,
 				3C6AD5141C6B187700E56697 /* GZYNavigationController.m in Sources */,
+				3C57EAE71C77573700B16577 /* GZYTittlesView.m in Sources */,
+				3CF4BDFA1C6B8D380049F830 /* GZYRecomendViewController.m in Sources */,
 				3C6AD5091C6B04E900E56697 /* GZYFriendTrendsViewController.m in Sources */,
+				3C89C3661C70A06B00BEE3EC /* GZYRecomendTagsViewController.m in Sources */,
+				3C12672A1C8AA292004E71E0 /* GZYVoiceView.m in Sources */,
+				3C6A0D6A1C6D81DE00B54C93 /* Foundation+Log.m in Sources */,
+				3C6A0D7A1C6DD81800B54C93 /* GZYRecomendUser.m in Sources */,
+				3C69DB3F1C78A07600B2BE09 /* GZYPlaceHolderTextField.m in Sources */,
+				3C5A500C1C844AC10099C903 /* GZYSeeBigViewController.m in Sources */,
 				3C6AD5101C6B04E900E56697 /* main.m in Sources */,
+				3C0ED6CB1C83195F00AF5E47 /* GZYPictureView.m in Sources */,
 				3C6AD50C1C6B04E900E56697 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -603,27 +891,37 @@
 		};
 		3C11CB701C69B2A9004E5BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F63D71483A97455E6C57F5 /* Pods-山寨百思姐.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "山寨百思姐/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "山寨百思姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moonhome.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		3C11CB711C69B2A9004E5BDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA50849E4EED91BC17EB197 /* Pods-山寨百思姐.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "山寨百思姐/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "山寨百思姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moonhome.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

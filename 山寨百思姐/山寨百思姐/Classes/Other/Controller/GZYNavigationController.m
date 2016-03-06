@@ -17,8 +17,10 @@
 
 -(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
     
+    
+    //统一设置返回按钮
     if (self.childViewControllers.count > 0) {
-        
+    
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         
         [button setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:UIControlStateNormal];
@@ -35,7 +37,9 @@
         
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
         viewController.hidesBottomBarWhenPushed = YES;
+        
     }
+
     
   
     [super pushViewController:viewController animated:animated];
@@ -47,6 +51,7 @@
     //统一设置导航栏图片
     UINavigationBar *navBarAppearance = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[[self class]]];
     [navBarAppearance setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+    
  
 }
 
