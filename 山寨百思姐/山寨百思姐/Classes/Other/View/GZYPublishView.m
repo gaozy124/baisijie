@@ -34,6 +34,7 @@ UIWindow *window_ = nil;
         
         GZYLoginButton *button = [[GZYLoginButton alloc] init];
         [button setTitle:tittles[i] forState:UIControlStateNormal];
+        [button setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
         [button setImage:[UIImage imageNamed:images[i]] forState:UIControlStateNormal];
         [self addSubview:button];
         
@@ -101,6 +102,8 @@ UIWindow *window_ = nil;
     publishView.userInteractionEnabled = NO;
     
     window_ = [[UIWindow alloc] init];
+    
+    window_.backgroundColor = [UIColor clearColor];
     
     window_.bounds = [UIScreen mainScreen].bounds;
     
